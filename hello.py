@@ -1,1 +1,2 @@
-print("python");
+name = ["sumit", "amit", "mahesh"]
+print(name);
