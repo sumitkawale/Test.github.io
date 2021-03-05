@@ -1,0 +1,40 @@
+clone:
+	git clone <link>
+add:
+	git add . 
+	git add * 
+	git add <file-name>
+commit:
+	git commit -am "<message>"
+push:
+	git push
+pull:
+	git pull
+log:
+	git log
+undo:
+	reset:
+		git reset --hard //will reset the changes on origin/master
+		git reset --hard origin/master //(same as above)
+		git reset --hard <commit-id>
+	restore:
+		git restore <file-name / * / .> //to discard all the changes till head
+	checkout:
+		git checkout -- <file-name / * / .>
+	revert: 
+		git revert <commit-id> //will undo the changes till commit
+--------------------------------------------------------
+for resetting changes till your commit and making it as origin/master
+	git checkout master
+	git reset --hard e3f1e37
+	git push --force origin master
+--------------------------------------------------------
+branch:
+	list of branch:
+		git branch
+	create branch:
+		git checkout -b <branch-name>
+	changing branch:
+		git checkout <branch-name>
+	merge branch(to master branch):
+		git merge <branch-name>
