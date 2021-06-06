@@ -38,3 +38,6 @@ branch:
 		git checkout <branch-name>
 	merge branch(to master branch):
 		git merge <branch-name>
+
+	for pushing branch to github:
+		git push --set-upstream origin <branch-name>
