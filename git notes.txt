@@ -12,6 +12,11 @@ pull:
 	git pull
 log:
 	git log
+see previous commit:
+	git reset --hard [commit-id]
+go back to head:
+	git reset origin
+	git restore .
 undo:
 	reset:
 		git reset --hard //will reset the changes on origin/master
