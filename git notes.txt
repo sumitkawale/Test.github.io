@@ -26,7 +26,7 @@ undo:
 --------------------------------------------------------
 for resetting changes till your commit and making it as origin/master
 	git checkout master
-	git reset --hard e3f1e37
+	git reset e3f1e37 --hard  // to check commit code
 	git push --force origin master
 --------------------------------------------------------
 branch:
