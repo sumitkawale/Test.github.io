@@ -8,7 +8,7 @@ commit:
 	git commit -am "<message>"
 push:
 	git push
-pull:
+pull: 
 	git pull
 log:
 	git log
