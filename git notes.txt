@@ -45,4 +45,4 @@ branch:
 		git merge <branch-name>
 
 	for pushing branch to github:
-		git push --set-upstream origin <branch-name>
+		git push origin <branch-name>
