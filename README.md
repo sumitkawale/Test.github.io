@@ -13,7 +13,7 @@ when we merge ⛜  two branches, the new commit is created for that merge.
 > **git merge feat**
 
 ```
-              merge comming
+              merge commit
                       |
                       V
 main   -  -  -  -  -  =  -
